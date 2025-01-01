@@ -1,5 +1,5 @@
 # Made to be used with a keybind
-# Requires hyprshade and uses libnotify for the notification
+# Requires hyprshade for the filter and libnotify for the notification
 filter="blue-light-filter"
 
 if [ -z $(hyprshade current) ] ;then
