@@ -1,7 +1,8 @@
 # made to be used with a keybind
-# will open a new alacritty window in the same of the 
-# active one
+# will open a new alacritty window in the same directory as the active one
+
 TERM=alacritty
+
 # get the PID of the currently active window
 ACTIVE_PID=$(hyprctl activewindow | grep 'pid:' | cut -d ':' -f2 | tr -d ' ')
 
