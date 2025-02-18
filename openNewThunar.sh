@@ -1,4 +1,6 @@
-TERM=alacritty
+# uses thunar by default
+# made for hyprland
+# meant to be triggered by a keybind
 FILE_MANAGER=thunar
 
 # get the PID of the currently active window
