@@ -19,3 +19,5 @@ DISK_USAGE=$(df -h / | tail -n1 | tr -s " " | cut -d" " -f5)
 notify-send "cpu usage" "$CPU_USAGE"
 notify-send "memorry usage" "$MEM_PERCENT%"
 notify-send "disk usage" "$DISK_USAGE"
+
+exit 0
